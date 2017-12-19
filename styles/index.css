@@ -1,0 +1,76 @@
+.navbar {
+	background-color:rgba(0,0,0,.8) !important;
+
+}
+
+.navTop {
+	min-height: 80px;
+}
+
+.row {
+	min-height: 600px;
+	background-color: black;
+}
+
+
+.aboutSection  {
+	background-color: #424040;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.introSection {
+	background-image: url("../assets/robinOne.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+
+.nameTitle{
+	font-size: 6em;
+	color: rgba(0,0,0,.7);
+	margin-left: 2%;
+	margin-top: 8%;
+	text-outline: 2px 2px #fff;
+}
+
+.subnameTitle{
+	font-size: 3.5em;
+	color: rgba(0,0,0,.5);
+	float: right;
+	margin-left: 55%;
+	text-outline: 3px 3px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+	padding-right: 10px;
+}
+
+
+.outroSection {
+	background-image: url("../assets/robinTwo.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.socialFooter {
+	list-style: none;
+	display: inline-flex;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+.fa {
+	color: white;
+	margin: 0px 15px 0px 15px
+
+}
