@@ -1,3 +1,9 @@
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
 .navbar {
 	background-color:rgba(0,0,0,.8) !important;
 
@@ -12,6 +18,14 @@
 	background-color: black;
 }
 
+.card .btn {
+	background-color: #0d036e;
+}
+
+.card .btn:hover{
+	
+	background-color: #080145;
+}
 
 .aboutSection  {
 	background-color: #424040;
@@ -36,16 +50,17 @@
 
 
 .nameTitle{
-	font-size: 6em;
-	color: rgba(0,0,0,.7);
+	font-size: 7em;
+	color: rgba(0,0,0,.8);
 	margin-left: 2%;
-	margin-top: 8%;
-	text-outline: 2px 2px #fff;
+	margin-top: 35%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
 }
 
 .subnameTitle{
 	font-size: 3.5em;
-	color: rgba(0,0,0,.5);
+	color: rgba(0,0,0,.8);
 	float: right;
 	margin-left: 55%;
 	text-outline: 3px 3px #fff;
@@ -61,6 +76,22 @@
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.card {
+	background-color: #000;
+	margin-top: 25px;
+}
+
+.card h4, p {
+	color: #fff;
+}
+
+.card-img-top {
+	width: 100%;
+	max-height: 300px;
+	overflow: hidden;
+	
 }
 
 .socialFooter {

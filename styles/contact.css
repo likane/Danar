@@ -1,0 +1,53 @@
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.navbar {
+	background-color:rgba(0,0,0,.8) !important;
+
+}
+
+.navTop {
+	min-height: 80px;
+}
+
+
+body{
+	background-color: #000;
+	
+}
+
+.row {
+	max-height: 350px !important;
+	
+}
+
+.contactTitle h1 {
+
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 100px 35%;
+	font-size: 4em;
+}
+
+.contactInfo {
+	color: #fff;
+	text-align: center;
+}
+
+
+
+.socialFooter {
+	list-style: none;
+	display: inline-flex;
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+.fa {
+	color: white;
+	margin: 0px 15px 0px 15px
+
+}
