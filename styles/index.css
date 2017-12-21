@@ -3,28 +3,18 @@ h1, h2, h3, h4, p {
 
 }
 
-
-.navbar {
-	background-color:rgba(0,0,0,.8) !important;
-
-}
-
-.navTop {
-	min-height: 80px;
-}
-
 .row {
 	min-height: 600px;
 	background-color: black;
 }
 
 .card .btn {
-	background-color: #0d036e;
+	background-color: #59b6f9;
 }
 
 .card .btn:hover{
 	
-	background-color: #080145;
+	background-color: #007bff;
 }
 
 .aboutSection  {
@@ -46,8 +36,6 @@ h1, h2, h3, h4, p {
   background-attachment: fixed;
 
 }
-
-
 
 .nameTitle{
 	font-size: 7em;
@@ -78,6 +66,15 @@ h1, h2, h3, h4, p {
   background-attachment: fixed;
 }
 
+.outroTitle {
+	font-size: 3em;
+	color: rgba(0,0,0,.8);
+	margin-left: 2%;
+	margin-top: 5%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+
+}
 .card {
 	background-color: #000;
 	margin-top: 25px;

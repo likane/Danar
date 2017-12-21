@@ -1,0 +1,90 @@
+h1, h2, h3, h4, p {
+	font-family: 'Roboto', sans-serif !important;
+
+}
+
+.row{
+	min-height: 500px;
+}
+
+.musicStory p, h3 {
+	text-align: left;
+	margin: 30px;
+	color: #000;
+}
+
+.musicStory p {
+	font-size: 1em;
+	
+}
+
+.musicArtist p {
+	color: #000;
+	margin: 15px;
+}
+
+.musicArtist {
+
+}
+
+.musicStory {
+}
+
+.albumDiv {
+	background-color: #fff;
+	min-height: 800px;
+}
+
+.albumPic {
+	background-image: url("../assets/albumCover.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.albumDetails {
+	background-color: #000;
+}
+
+.albumDetails p {
+	color:#fff;
+	text-align: left;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.topDesc {
+	margin-top: 20%;
+	
+}
+
+.tripleDiv {
+	background-color: #000;
+}
+
+.tripleDiv h3, p {
+	color: #fff;
+}
+
+#outroDiv {
+	max-height: 250px !important;
+	background-color: #a1100b;
+}
+
+ul {
+	list-style: none;
+}
+
+.outroIcons {
+	text-align: center;
+	display: inline-block;
+}
+
+#outroDiv  p {
+	text-align: center;
+	color: #fff;
+	margin: 50px;
+	font-size: 1.3em;
+}
