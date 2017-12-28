@@ -10,9 +10,18 @@ body {
 .carousel {
 	height: 100%;
 	width: 100%;
-	margin-top: 80px;
+	margin-top: 90px;
 	background-color: black;
-	min-height: 600px;
+	max-height: 400px;
 
 
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+.itemLabel {
+	margin-top: 30%;
+	text-align: center;
 }

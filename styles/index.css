@@ -57,6 +57,8 @@ h1, h2, h3, h4, p {
 }
 
 
+
+
 .outroSection {
 	background-image: url("../assets/robinTwo.jpg");
 	-webkit-background-size: cover;
@@ -70,6 +72,20 @@ h1, h2, h3, h4, p {
 	font-size: 3em;
 	color: rgba(0,0,0,.8);
 	margin-left: 2%;
+	margin-top: 5%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+}
+
+.contactSection {
+	text-align: center;
+	background-color: grey;
+}
+
+.contactTitle {
+	font-size: 3em;
+	color: rgba(100,100,100,.8);
+	
 	margin-top: 5%;
 	text-outline: 4px 4px #fff;
 	text-shadow: 1px 1px rgba(100,100,100,.7);
