@@ -4,31 +4,12 @@ h1, h2, h3, h4, p {
 }
 
 .row {
-	min-height: 600px;
+	min-height: 650px;
 	background-color: black;
 }
 
-.card .btn {
-	background-color: #59b6f9;
-}
-
-.card .btn:hover{
-	
-	background-color: #007bff;
-}
-
-.aboutSection  {
-	background-color: #424040;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin-right: 0px;
-	margin-left: 0px;
-	width: 100%;
-	text-align: center;
-}
-
 .introSection {
-	background-image: url("../assets/robinOne.jpg");
+	background-image: url("../assets/RobWalking.jpg");
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,6 +27,44 @@ h1, h2, h3, h4, p {
 	text-shadow: 1px 1px rgba(100,100,100,.7);
 }
 
+
+.aboutSection  {
+	background-color: #424040;
+	padding-top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: left;
+}
+
+.aboutSection p {
+	color:#fff;
+
+}
+
+.bio {
+	
+	margin-left: 50px;
+}
+
+.aboutPicImg {
+	margin: 0 auto; 
+	
+}
+
+.aboutPic {
+	background-color: #000;
+}
+
+.historyTitle {
+	font-size: 3em;
+	color: #fff;
+	margin-top: 2%;
+	text-outline: 4px 4px #fff;
+	text-shadow: 1px 1px rgba(100,100,100,.7);
+}
+
+
 .subnameTitle{
 	font-size: 3.5em;
 	color: rgba(0,0,0,.8);
@@ -56,11 +75,20 @@ h1, h2, h3, h4, p {
 	padding-right: 10px;
 }
 
+.workedWith {
+	background-image: url("../assets/RobYoung.jpg");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 
 
 .outroSection {
-	background-image: url("../assets/robinTwo.jpg");
+	background-image: url("../assets/RobBoard.jpg");
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -70,42 +98,68 @@ h1, h2, h3, h4, p {
 
 .outroTitle {
 	font-size: 3em;
-	color: rgba(0,0,0,.8);
-	margin-left: 2%;
+	margin-left: 5%;
 	margin-top: 5%;
-	text-outline: 4px 4px #fff;
-	text-shadow: 1px 1px rgba(100,100,100,.7);
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+
+
+.workedWithOne {
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+	margin-top: 0px;
+}
+
+
+.musicPortrait {
+  
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  
+  
+}
+.outroWorkedWith {
+	font-size: 1.5em;
+	color: rgba(100,100,100, .3);
+	text-shadow: 2px 1px #000;
+	margin-top: 20px;
+	margin-bottom: 20px;  
 }
 
 .contactSection {
 	text-align: center;
-	background-color: grey;
+	background-color: #424040;
 }
 
 .contactTitle {
 	font-size: 3em;
-	color: rgba(100,100,100,.8);
-	
-	margin-top: 5%;
+	color: #fff;
+	margin-top: 3%;
 	text-outline: 4px 4px #fff;
 	text-shadow: 1px 1px rgba(100,100,100,.7);
-
-}
-.card {
-	background-color: #000;
-	margin-top: 25px;
 }
 
-.card h4, p {
+.contactInfo h3 {
 	color: #fff;
 }
 
-.card-img-top {
-	width: 100%;
-	max-height: 300px;
-	overflow: hidden;
-	
+.contactInfo p {
+	color: rgba(0,0,0, 1);
 }
+
+.contactInfo p:hover {
+	color: #fff;
+}
+
+
+
+
 
 .socialFooter {
 	list-style: none;
@@ -114,7 +168,10 @@ h1, h2, h3, h4, p {
 	margin-bottom: 0px;
 }
 .fa {
+	font-size: 1.2em;
 	color: white;
 	margin: 0px 15px 0px 15px
-
 }
+
+
+
