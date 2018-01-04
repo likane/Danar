@@ -48,12 +48,17 @@ h1, h2, h3, h4, p {
 }
 
 .aboutPicImg {
-	margin: 0 auto; 
+	display: block;
+	width: 50%;
+	margin:0 auto;
 	
 }
 
 .aboutPic {
+	display: inline;
 	background-color: #000;
+	padding-top: 10%;
+
 }
 
 .historyTitle {
@@ -75,6 +80,17 @@ h1, h2, h3, h4, p {
 	padding-right: 10px;
 }
 
+.spotifyPlayer {
+	display: inline;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.spotifyList {
+	display: block;
+	width: 80%;
+	margin:0 auto;
+
+}
 .workedWith {
 	background-image: url("../assets/RobYoung.jpg");
 	-webkit-background-size: cover;
